@@ -2,6 +2,10 @@
 
 A React application that fetches and displays Pokémon data from the [PokeAPI](https://pokeapi.co/). Users can search for Pokémon by name, ID, or type.
 
+## Live Demo
+
+Check out the live application: [Pokémon Explorer](https://delicate-malabi-af7804.netlify.app/)
+
 ## Features
 
 - Displays Pokémon in a responsive grid layout
@@ -16,6 +20,7 @@ A React application that fetches and displays Pokémon data from the [PokeAPI](h
 - React Router
 - Axios for API requests
 - CSS for styling
+- Deployed on Netlify
 
 ## Getting Started
 
@@ -30,6 +35,10 @@ A React application that fetches and displays Pokémon data from the [PokeAPI](h
    ```
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
+## Deployment
+
+The application is deployed on Netlify at [https://delicate-malabi-af7804.netlify.app/](https://delicate-malabi-af7804.netlify.app/)
+
 ## API
 
 This project uses the [PokeAPI](https://pokeapi.co/) to fetch Pokémon data.
@@ -39,33 +48,15 @@ This project uses the [PokeAPI](https://pokeapi.co/) to fetch Pokémon data.
 MIT
 ```
 
-Now let's push the code to GitHub:
+To update the README.md file in your repository:
 
 ```bash
-git init
+git add README.md
 ```
 
 ```bash
-git add .
+git commit -m "Update README with deployed application link"
 ```
 
 ```bash
-git commit -m "Initial commit: Pokemon Explorer app with search functionality"
-```
-
-```bash
-git branch -M main
-```
-
-```bash
-git remote add origin https://github.com/yourusername/pokemon-explorer.git
-```
-
-```bash
-git push -u origin main
-```
-
-To run the application locally:
-
-```bash
-npm start
+git push
